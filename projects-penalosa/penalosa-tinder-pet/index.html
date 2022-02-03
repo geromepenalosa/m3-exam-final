@@ -1,0 +1,37 @@
+<html>
+<title>Pet Tinder</title>
+<header>
+
+</header>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+
+<body class="box">
+    <div class="data-container">
+        <div class="header-design">
+            PET ADOPTION
+        </div>
+    
+        <div id="pickedPets"></div>
+    </div>
+
+    <div class="image-container">
+        <div>
+
+            <img id="petImage" src="assets/cabans-rabbit.jpg" width="250" height="250">
+            <h1 class="bottom-left" id="petDetail">Cabans, 6</h1>
+            <button class="heart-button" id="get-pet" onclick="getPet()">
+                <i class="fa fa-heart"></i>
+            </button>
+            <button class="eks-button" id="skip-pet" onclick="skipPet()">
+                <i class="fa fa-times"></i>
+            </button>
+          
+        </div>
+     
+    </div>
+    
+</body>
+<script src="app.js"></script>
+</html>

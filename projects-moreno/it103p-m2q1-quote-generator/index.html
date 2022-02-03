@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+    <title>Kowt</title>
+</head>
+
+<body class="column center" style="gap:1em">
+    <div  class="column center text-align-center" style="padding-top: 40px; padding-bottom: 60px;">
+        <h1 class="text-black">Hello! Want some Kowt?</h1>
+        <p id="display-quote" style="padding-top: 50px;">Please highlight your chosen person and click the button below</p>
+    </div>
+    <div class='row'>
+        <button class="button" id="bruce" onclick="chooseBruce()"><h3>Bruce Lee</h3>
+        </button>
+        <button class="button" id="charlie" onclick="chooseCharlie()"><h3>Charlie Chaplin</h3>
+        </button>
+        <button class="button" id="martin" onclick="chooseMartin()"><h3>Martin Luther King</h3>
+        </button>
+        <button class="button" id="stan" onclick="chooseStan()"><h3>Stan Lee</h3>
+        </button>
+        <button class="button" id="mark" onclick="chooseMark()"><h3>Mark Zuckerberg</h3>
+        </button>
+    </div>
+    <div class="text-align-center">
+        <button id="get-quote" class="quote-button" disabled = true onclick="displayQuote()">
+            <h3>Get Quote</h3>
+        </button>
+    </div>
+
+    <script src="app.js"></script>
+</body>

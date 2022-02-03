@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&family=Ubuntu:wght@300;700&display=swap');
+
+.container {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700;
+}
+
+.textPlaceHolder{
+    margin-top: 30;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: right;
+    font-size: 10;
+}
+
+.getQuoteButton{
+
+
+    background-color: darkred;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    height: 50;
+    margin: 40;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container button{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    height: 50;
+    width: 500;
+    margin: 5px;
+    
+}
+
+button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+.container h1{
+    margin: 1;
+    font-family: 'Oooh Baby', cursive;
+}
+

@@ -1,0 +1,38 @@
+<html>
+    <title>Quote Generator</title>
+<head>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+<div class="container">
+
+    <h1>Quote Generator</h1>
+    <p>This website generates famous quotes from different people </p>
+
+    <button id="Jobs" onclick="jobsSelected()">Steve Jobs</button>
+    <button id="King" onclick="kingSelected()">Stephen King</button>
+    <button id="Shakespeare" onclick="shakespeareSelected()">William Shakespeare</button>
+    <button id="Winfrey" onclick="winfreySelected()">Oprah Winfrey</button>
+    <button id="Einstein" onclick="einsteinSelected()">Albert Einstein</button>
+
+    <div >
+    
+        <button class="getQuoteButton" id="getQuotee" onclick="quoteGetter()" disabled = true >Get Quote</button>
+    
+    </div>
+    
+    <div class="textPlaceHolder">
+        <h1 id="quoteDisplay"></h1>
+
+    </div>
+    
+
+</div>
+
+
+
+
+<script src="function.js"></script>
+</body>
+</html>

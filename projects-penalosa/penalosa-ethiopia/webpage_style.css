@@ -1,0 +1,181 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+}
+.wrapper{
+    text-align: justify;
+    width: 1170px;
+    margin: 0% auto;
+}
+header{
+
+    height: 100px;
+    background: #262626;
+    width: 100%;
+    z-index: 12;
+    position: fixed;
+}
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #262626;
+    color: white;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+    font-size: 20;
+  }
+.logo{
+
+    width: 30%;
+    float: left;
+    line-height: 100px;
+}
+.logo a{
+
+    text-decoration: none;
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: 5px;
+    font-weight: 900;
+    font-family: 'Outfit', sans-serif;
+}
+nav{
+    float: right;
+    line-height: 100px;
+    Display: flex;
+    Flex-direction: row;
+    align-self: flex-start;
+    flex-wrap: wrap;
+    justify-content:  space-between;
+}
+nav a{
+
+    text-decoration: none;
+    font-family: 'Outfit', sans-serif;
+    margin: 0% 20px;
+    color: #fff;
+}
+.banner-area{
+    width: 100%;
+    height: 750px;
+    position: fixed;
+    align-self: center;
+    top: 100px;
+    background-color: black;
+    background-image: url(https://www.wildfrontierstravel.com/media/cache/page_image_large/upload/mirror/www-wildfrontierstravel-com/e81f3645_Holy%20Trinity%20Cathedral,%20Addis%20Ababa%20-%20dreamstime_xl_67733310.jpeg);
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center center;
+
+}
+.banner-area h2{
+
+    padding: 16%;
+    align-self: center;
+    font-size: 150px;
+    border-radius: 100px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.content-area{
+    align-self: center;
+    width: 100%;
+    position: relative;
+    top: 1000px;
+    background:white;
+    height: relative;
+}
+
+.font-color{
+    color: wheat;
+}
+
+.content-area img{
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+    padding: 40px;
+    width: 740px;
+}
+
+.content-area-image-flag {
+
+    padding: 40px;
+    width: 740px;
+}
+
+
+.content-area h2{
+    align-self: center;
+    font-family: 'Outfit', sans-serif;
+    padding-top: 30px;
+    font-size: 40px;
+    margin: 0;
+}
+.content-area p{
+    align-content: center;
+    font-family: 'Outfit', sans-serif;
+    padding: 2% 0;
+    font-weight: 100;
+    font-size: 17px;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+
+}
+
+.row-wrapper{
+    margin-left: 0%;
+    text-align: justify;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.row-wrapper span{
+    font-size: 70;
+    display: flex;
+    align-content: flex-start;
+    font-weight: 800;
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 50%;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.linear-wipe {
+    text-align: center;
+    
+    background: linear-gradient(to right, #fdc094 20%, #fbd52d 40%, #ef3a7b 60%, #fdc094 80%);
+    background-size: 200% auto;
+    
+    color: #000;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    animation: shine 3s linear infinite;}
+
+ @keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }
